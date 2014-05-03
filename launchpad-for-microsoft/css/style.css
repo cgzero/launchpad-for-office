@@ -13,7 +13,7 @@ a, a:hover{ text-decoration: none;}
  * global style
  ****************************/
 #container {
-    width: 200px;
+    width: 197px;
     height: 380px;
     padding: 25px 0 0 25px;
     margin: 2px;
@@ -35,6 +35,10 @@ a, a:hover{ text-decoration: none;}
     position: relative;
     background: #333 url(../images/icons_all.png) no-repeat;
     background-size: 244px;
+}
+
+.icon.ui-sortable-helper{
+    cursor: move;
 }
 
 .icon span {
