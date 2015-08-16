@@ -1,0 +1,107 @@
+html, body,
+ul, li,
+h1, h2, h3, h4, h5, h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+#container {
+    width: 447px;
+    height: 185px;
+    padding: 15px 0 0 15px;
+    margin: 2px;
+    background-color: #fff;
+    font-size: 0;
+}
+
+.icon {
+    position: relative;
+    float: left;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    outline: none;
+    color: #fff;
+    background: #333 url(../img/sprite_icons.png) no-repeat;
+    background-size: 304px;
+}
+
+.icon.ui-sortable-helper {
+    cursor: move;
+}
+
+.icon span {
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+}
+
+.icon:hover {
+    border: 2px solid transparent;
+}
+
+.icon:active {
+    border: 2px solid transparent;
+    -webkit-transform: scale(.9215, .9215);
+            transform: scale(.9215, .9215);
+}
+
+#outlook-icon {
+    background-color: #0072c6;
+    background-position: -150px -75px;
+}
+
+#people-icon {
+    background-color: #d24726;
+    background-position: 0 -75px;
+}
+
+#calendar-icon {
+    background-color: #5133ab;
+    background-position: -225px -75px;
+}
+
+#onedrive-icon {
+    background-color: #094ab2;
+    background-position: -225px 0;
+}
+
+#word-icon {
+    background-color: #2b579a;
+    background-position: -150px -75px;
+}
+
+#excel-icon {
+    background-color: #217346;
+    background-position: -150px -150px;
+}
+
+#powerpoint-icon {
+    background-color: #d24726;
+    background-position: 0 -150px;
+}
+
+#onenote-icon {
+    background-color: #80397b;
+    background-position: -75px -150px;
+}
+
+#sway-icon {
+    background-color: #008272;
+    background-position: -75px -74px;
+}
+
+#office-icon {
+    background-color: #eb3c00;
+    background-position: -150px 2px;
+}
