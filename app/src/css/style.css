@@ -58,7 +58,7 @@ a:hover{
 
 #outlook-icon {
     background-color: #0072c6;
-    background-position: -150px -75px;
+    background-position: -75px -150px;
 }
 
 #people-icon {
@@ -93,7 +93,7 @@ a:hover{
 
 #onenote-icon {
     background-color: #80397b;
-    background-position: -75px -150px;
+    background-position: -75px 0;
 }
 
 #sway-icon {
