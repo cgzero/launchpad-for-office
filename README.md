@@ -4,6 +4,8 @@
 
 适用于Chrome浏览器，快速登录microsft应用的Launchpad
 
+下载地址：[点此下载](https://chrome.google.com/webstore/detail/dihbdjhdjmhgggkmebfndlfpbkammabk)
+
 ## 更新历史
 
 - 2.0.1 修复 OneNote 与 Outlook 应用图标显示错误 [2015-11-23]
