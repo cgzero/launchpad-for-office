@@ -1,5 +1,7 @@
 # Launchpad for Microsoft
 
+![](https://raw.githubusercontent.com/cgzero/launchpad-for-microsoft/master/tmp/screen-shot1.png)
+
 ## 简介
 
 适用于Chrome浏览器，快速登录microsft应用的Launchpad
