@@ -4,8 +4,6 @@
 
 ![](https://raw.githubusercontent.com/cgzero/launchpad-for-microsoft/master/tmp/screen-shot1.png)
 
-下载地址：
-
 ## 更新历史
 
 - 2.0.1 修复 OneNote 与 Outlook 应用图标显示错误 [2015-11-23]
