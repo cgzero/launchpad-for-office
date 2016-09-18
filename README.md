@@ -1,12 +1,10 @@
 # Launchpad for Microsoft
 
+适用于Chrome浏览器，快速登录 microsft 应用的 Launchpad。[点此下载](https://chrome.google.com/webstore/detail/dihbdjhdjmhgggkmebfndlfpbkammabk)
+
 ![](https://raw.githubusercontent.com/cgzero/launchpad-for-microsoft/master/tmp/screen-shot1.png)
 
-## 简介
-
-适用于Chrome浏览器，快速登录 microsft 应用的 Launchpad
-
-下载地址：[点此下载](https://chrome.google.com/webstore/detail/dihbdjhdjmhgggkmebfndlfpbkammabk)
+下载地址：
 
 ## 更新历史
 
