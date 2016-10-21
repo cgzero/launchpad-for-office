@@ -1,7 +1,7 @@
 {
-  "name": "Launchpad for Microsoft",
-  "description": "launchpad of your Microsoft Apps",
-  "version": "2.0.1",
+  "name": "Launchpad for Office",
+  "description": "Launchpad of your Microsoft Office Apps",
+  "version": "3.0",
   "browser_action": {
       "default_icon": {
         "19": "src/img/icon19.png",
@@ -11,8 +11,9 @@
   },
   "icons": {
     "19": "src/img/icon19.png",
+    "38": "src/img/icon38.png",
     "48": "src/img/icon48.png",
-    "128": "src/img/icon128.png"
+    "96": "src/img/icon96.png"
   },
   "manifest_version": 2
 }

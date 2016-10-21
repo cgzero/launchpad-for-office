@@ -6,16 +6,41 @@ p {
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Office365Icons';
+    src: url('../font/office365icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[id^="ms-i-"] {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1;
+}
+
+[id^="ms-i-"]:before {
+    font-family: "Office365Icons";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
 a,
 a:hover{
     text-decoration: none;
 }
 
 #container {
-    width: 447px;
-    height: 185px;
-    padding: 15px 0 0 15px;
-    margin: 2px;
+    width: 510px;
+    height: 204px;
+    padding: 8px 6px 6px 8px;
     background-color: #fff;
     font-size: 0;
 }
@@ -24,84 +49,167 @@ a:hover{
     position: relative;
     float: left;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 96px;
+    height: 96px;
     border: 2px solid #fff;
-    margin-right: 3px;
-    margin-bottom: 3px;
+    margin-right: 2px;
+    margin-bottom: 2px;
     font-size: 12px;
     outline: none;
     color: #fff;
-    background: #333 url(../img/sprite_icons.png) no-repeat;
     background-size: 304px;
-}
+    line-height: 96px;
+    text-align: center;
+    -webkit-transition: all .1s;
+    -webkit-background-clip: padding-box;
 
-.icon.ui-sortable-helper {
-    cursor: move;
 }
 
 .icon span {
+    width: 96px;
+    height: 20px;
+    line-height: 20px;
     position: absolute;
-    bottom: 3px;
-    left: 5px;
-}
-
-.icon:hover {
-    border: 2px solid transparent;
+    bottom: 15px;
+    left: 0;
 }
 
 .icon:active {
     border: 2px solid transparent;
-    -webkit-transform: scale(.9215, .9215);
-            transform: scale(.9215, .9215);
+    -webkit-transform: scale(.95, .95);
+            transform: scale(.95, .95);
 }
 
 #outlook-icon {
-    background-color: #0072c6;
-    background-position: -75px -150px;
+    background-color: rgb(19, 122, 212);
+    border-color: rgb(19, 122, 212);
 }
 
-#people-icon {
-    background-color: #d24726;
-    background-position: 0 -75px;
+#outlook-icon:hover {
+    border-color: rgba(19, 122, 212, .7);
 }
 
 #calendar-icon {
-    background-color: #5133ab;
-    background-position: -225px -75px;
+    background-color: rgb(81, 56, 168);
+    border-color: rgb(81, 56, 168);
+}
+
+#calendar-icon:hover {
+    border-color: rgba(81, 56, 168, .7);
+}
+
+#people-icon {
+    background-color: rgb(208, 72, 46);
+    border-color: rgb(208, 72, 46);
+}
+
+#people-icon:hover {
+    border-color: rgba(208, 72, 46, .7);
 }
 
 #onedrive-icon {
-    background-color: #094ab2;
-    background-position: -225px 0;
+    background-color: rgb(39, 96, 117);
+    border-color: rgb(17, 77, 175);
+}
+
+#onedrive-icon:hover {
+    border-color: rgba(17, 77, 175, .7);
+}
+
+#tasks-icon {
+    background-color: RGB(19, 122, 212);
+    border-color: RGB(19, 122, 212);
+}
+
+#tasks-icon:hover {
+    border-color: rgba(19, 122, 212, .7);
 }
 
 #word-icon {
-    background-color: #2b579a;
-    background-position: -150px -75px;
+    background-color: RGB(45, 89, 152);
+    border-color: RGB(45, 89, 152);
+}
+
+#word-icon:hover {
+    border-color: RGBA(45, 89, 152, .7);
 }
 
 #excel-icon {
-    background-color: #217346;
-    background-position: -150px -150px;
+    background-color: RGB(37, 114, 71);
+    border-color: RGB(37, 114, 71);
+}
+
+#excel-icon:hover {
+    border-color: RGBA(37, 114, 71, .7);
 }
 
 #powerpoint-icon {
-    background-color: #d24726;
-    background-position: 0 -150px;
+    background-color: RGB(208, 72, 46);
+    border-color: RGB(208, 72, 46);
+}
+
+#powerpoint-icon:hover {
+    border-color: RGBA(208, 72, 46, .7);
 }
 
 #onenote-icon {
-    background-color: #80397b;
-    background-position: -75px 0;
+    background-color: RGB(127, 59, 122);
+    border-color: RGB(127, 59, 122);
+}
+
+#onenote-icon:hover {
+    border-color: RGBA(127, 59, 122, .7);
 }
 
 #sway-icon {
-    background-color: #008272;
-    background-position: -75px -74px;
+    background-color: RGB(17, 129, 114);
+    border-color: RGB(17, 129, 114);
+}
+
+#sway-icon:hover {
+    border-color: RGBA(17, 129, 114, .7);
 }
 
 #office-icon {
     background-color: #eb3c00;
-    background-position: -150px 2px;
+}
+
+#ms-i-outlook:before {
+    content: "\e009";
+}
+
+#ms-i-calendar:before {
+    content: "\e011";
+}
+
+#ms-i-people:before {
+    content: "\e00e";
+}
+
+#ms-i-onedrive:before {
+    content: "\e016";
+}
+
+#ms-i-tasks:before {
+    content: "\e040";
+}
+
+#ms-i-word:before {
+    content: "\e0b9";
+}
+
+#ms-i-excel:before {
+    content: "\e0b5";
+}
+
+#ms-i-powerpoint:before {
+    content: "\e0b8";
+}
+
+#ms-i-onenote:before {
+    content: "\e0b7";
+}
+
+#ms-i-sway:before {
+    content: "\e247";
 }
