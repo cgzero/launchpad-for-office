@@ -1,12 +1,8 @@
 # Launchpad for Office
 
-![](https://raw.githubusercontent.com/cgzero/launchpad-for-Office/master/tmp/screen-shot1.png)
+适用于Chrome浏览器，快速登录 microsft 应用的启动器。[点此下载](https://chrome.google.com/webstore/detail/dihbdjhdjmhgggkmebfndlfpbkammabk)
 
-## 简介
-
-适用于Chrome浏览器，快速登录 Office 应用的 Launchpad
-
-下载地址：[点此下载](https://chrome.google.com/webstore/detail/dihbdjhdjmhgggkmebfndlfpbkammabk)
+![](https://raw.githubusercontent.com/cgzero/launchpad-for-microsoft/master/tmp/screen-shot1.png)
 
 ## 更新历史
 
