@@ -2,7 +2,7 @@
 
 适用于Chrome浏览器，快速登录 Microsft Office 应用的启动器。[点此下载](https://chrome.google.com/webstore/detail/dihbdjhdjmhgggkmebfndlfpbkammabk)
 
-![](https://raw.githubusercontent.com/cgzero/launchpad-for-microsoft/master/tmp/screen-shot1.png)
+![](tmp/screen-shot1.png)
 
 ## 更新历史
 
