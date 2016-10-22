@@ -109,11 +109,11 @@ a:hover{
 
 #onedrive-icon {
     background-color: rgb(39, 96, 117);
-    border-color: rgb(17, 77, 175);
+    border-color: rgb(39, 96, 117);
 }
 
 #onedrive-icon:hover {
-    border-color: rgba(17, 77, 175, .7);
+    border-color: rgba(39, 96, 117, .7);
 }
 
 #tasks-icon {
