@@ -1,6 +1,8 @@
 # Launchpad for Office
 
-适用于Chrome浏览器，快速登录 Microsft Office 应用的启动器。[点此下载](https://chrome.google.com/webstore/detail/dihbdjhdjmhgggkmebfndlfpbkammabk)
+**此产品已下架**
+
+适用于Chrome浏览器，快速登录 Microsft Office 应用的启动器。
 
 ![](tmp/screen-shot1.png)
 
