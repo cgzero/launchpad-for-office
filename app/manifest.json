@@ -1,7 +1,7 @@
 {
   "name": "Launchpad for Office",
-  "description": "Launchpad of your Office Apps",
-  "version": "4.0.0",
+  "description": "A fast, clean launchpad for your Office apps",
+  "version": "4.1.0",
   "manifest_version": 3,
   "action": {
       "default_icon": "src/img/icon.png",

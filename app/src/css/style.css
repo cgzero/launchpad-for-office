@@ -11,6 +11,7 @@ a {
 
 :root {
     --app-bg-hover: #f0f0f0;
+    --app-bg-active: #e0e0e0;
     --bg-color: #ffffff;
     --surface-color: #ffffff;
     --text-color: #242424;
@@ -19,7 +20,8 @@ a {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --app-bg-hover: #4a4a4a;
+        --app-bg-hover: #505050;
+        --app-bg-active: #6b6b6b;
         --bg-color: #3c3c3c;
         --surface-color: #3c3c3c;
         --text-color: #fff;
@@ -59,9 +61,14 @@ body {
     border-radius: 8px;
     user-select: none;
     cursor: pointer;
+    transition: background-color .1s;
 
     &:hover {
         background-color: var(--app-bg-hover);
+    }
+
+    &:active {
+        background-color: var(--app-bg-active);
     }
 }
 
@@ -73,8 +80,22 @@ body {
     height: 40px;
 
     .icon {
-        width: 32px;
-        height: 32px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .icon-hover {
+        display: none;
+    }
+}
+
+.app:hover:has(.icon-hover) {
+    .icon:not(.icon-hover) {
+        display: none;
+    }
+
+    .icon-hover {
+        display: block;
     }
 }
 
