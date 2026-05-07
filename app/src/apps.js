@@ -26,7 +26,7 @@ export const APPS = [
     {
         text: 'Excel',
         href: 'https://excel.cloud.microsoft',
-        icon: 'Excel_new.svg'
+        icon: 'Excel.svg'
     },
     {
         text: 'PowerPoint',
